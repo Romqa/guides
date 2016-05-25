@@ -90,7 +90,7 @@ export default Ember.Controller.extend({
           this.set('filteredList',result);
         });
       } else {
-        this.set('filteredList').clear();
+        this.get('filteredList').clear();
       }
     },
     search(param) {
