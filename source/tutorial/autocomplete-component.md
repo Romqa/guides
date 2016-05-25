@@ -99,7 +99,7 @@ export default Ember.Controller.extend({
           this.set('model',result);
         });
       } else {
-        this.set('model').clear();
+        this.get('model').clear();
       }
     }
   }
