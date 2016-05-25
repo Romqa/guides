@@ -12,7 +12,7 @@ ember g component filter-listing
 
 `app/templates/components/filter-listing.hbs`
 ```hbs
-City: {{input value=filter key-up=(action 'autoComplete' filter)}} 
+City: {{input value=filter key-up=(action 'autoComplete')}} 
 <button {{action 'search'}}>Search</button>
 
 <ul>
